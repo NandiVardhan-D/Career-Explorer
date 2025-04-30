@@ -1,0 +1,85 @@
+/* Reset & base */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #eef2f3, #8e9eab);
+    margin: 0;
+    padding: 0;
+    color: #1c1c1c;
+  }
+  
+  /* Main container */
+  #finance {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .carousel-inner img {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  /* Section block */
+  .section-container {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 40px 30px;
+    animation: fadeIn 0.8s ease;
+  }
+  
+  /* Titles */
+  .section-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #155724;
+    margin-bottom: 30px;
+  }
+  
+  .subtitle {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #2e2e2e;
+    border-left: 4px solid #28a745;
+    padding-left: 10px;
+  }
+  
+  /* Lists */
+  ul {
+    list-style: disc inside;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0 10px;
+  }
+  
+  li {
+    font-size: 16px;
+  }
+  
+  /* Button */
+  .btn-back {
+    margin-top: 40px;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-back:hover {
+    background-color: #1e7e34;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+    

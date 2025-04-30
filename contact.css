@@ -1,0 +1,112 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #ffffff, #ececec);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+  
+  h1 {
+    font-weight: 700;
+    color: #212121;
+    font-size: 36px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  p {
+    color: #666;
+    font-size: 17px;
+    text-align: center;
+  }
+  
+  .form-label {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  input,
+  textarea {
+    border-radius: 8px !important;
+    border: 1px solid #ccc;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  .btn-dark {
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-dark:hover {
+    background-color: #444;
+    transform: scale(1.05);
+  }
+  
+  .btn-outline-secondary {
+    border-radius: 25px;
+    margin-top: 15px;
+  }
+  
+
+/* Modal styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.4s;
+}
+
+.modal-content h2 {
+  color: #0077cc;
+  margin-bottom: 10px;
+}
+
+.modal-content p {
+  color: #444;
+}
+
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: #333;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
